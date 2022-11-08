@@ -19,6 +19,6 @@ from webbulider.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/',include('webbulider.urls')),
+    path('',include('webbulider.urls')),
 
 ]

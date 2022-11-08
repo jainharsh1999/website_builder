@@ -20,6 +20,8 @@ from . import views
 
 urlpatterns = [
     path('index',views.index, name='index'),
-   
-    
+    path('contact',views.contact, name='contact'),
+    path('aboutus',views.aboutus, name='aboutus'),
+    path('candidate',views.candidate, name='candidate'),
+     
 ]
